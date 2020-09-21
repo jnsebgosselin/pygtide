@@ -9,9 +9,14 @@ Earth Tide Service (IGETS)](http://igets.u-strasbg.fr/soft_and_tool.php).
 A user guide is available as [PDF download](https://github.com/hydrogeoscience/pygtide/raw/master/PyGTide_user-guide.pdf).
 
 Instructions:
-* Download and install [Anaconda 5.2+ for Python 3.6](https://www.anaconda.com/download/) (Windows 7/10 64bit)
+* Download and install [Anaconda3 5.2 for Python 3.6](https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe) (Windows 7/10 64bit)
 * Use the *Anaconda Navigator* to ensure that the packages [libpython](https://anaconda.org/anaconda/libpython) (as a minimum v2.1) and [mingw](https://anaconda.org/anaconda/mingw) (as a minimum v4.7) are installed. You will also need the following standard libraries: *numpy*, *pandas* and *datetime*.
 * Download [PyGTide](https://github.com/hydrogeoscience/pygtide/archive/master.zip), unzip into a local directory and run *test.py*
+
+## How to cite
+If you use PyGTide, please cite the work as:
+
+*Rau, Gabriel C. (2018) hydrogeoscience/pygtide: PyGTide v0.2 (Version v0.2). Zenodo. [http://doi.org/10.5281/zenodo.1346664](http://doi.org/10.5281/zenodo.1346664).*
 
 ## Example
 <img src="https://raw.githubusercontent.com/hydrogeoscience/pygtide/master/earth_tide_example.png" width="500">
@@ -21,6 +26,7 @@ This image shows Earth tides calculated for the city Karlsruhe (Germany) in the 
 * Hartmann, T., and H.-G. Wenzel (1995), The HW95 tidal potential catalogue, Geophysical Research Letters, 22(24), 3553–3556, https://doi.org/10.1029/95GL03324.
 * Kudryavtsev, S. M. (2004), Improved harmonic development of the Earth tide-generating potential, Journal of Geodesy, 17(12), 829-838, https://doi.org/10.1007/s00190-003-0361-2.
 * Wenzel, H.-G. (1996), The nanogal software: Earth tide data processing package ETERNA 3.30, Bulletin d’Informations des Marées Terrestres, 124, 9425–9439.
+* McMillan, T. C., and Rau, G. C., and Timms, W. A., and Andersen, M. S. (2019), Utilizing the impact of Earth and atmospheric tides on groundwater systems: A review reveals the future potential, Reviews of Geophysics, https://dx.doi.org/10.1029/2018RG000630.
 
 ## License
 PyGTide is released by [Gabriel C. Rau](https://hydrogeo.science) under the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
